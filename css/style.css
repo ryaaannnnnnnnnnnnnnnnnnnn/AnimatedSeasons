@@ -133,7 +133,7 @@ section .set div:nth-child(8)
         filter: blur(4px);
     }
 
-    {
+   * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -195,5 +195,9 @@ section .set div:nth-child(8)
     
     .navbar a:hover:before {
         width: 100%;
+    }
+    img {
+        width: 100;
+        
     }
     
